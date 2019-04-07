@@ -1,0 +1,20 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.json {
+  white-space: pre-wrap; 
+  background-color: black;
+  color: white;
+  padding: 13px
+}
+
+.cookieBtn {
+  margin: 10px;
+  padding: 5px;
+}

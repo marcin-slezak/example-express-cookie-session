@@ -1,0 +1,35 @@
+extends layout
+
+block content
+  h1= "Welcome to Winged Code Cookies Examples"
+
+  h2 Cookies
+  
+  p Current cookies visible on server side
+
+  p.json= cookies
+  
+  form(method='post', action='/cookie' )
+    button.cookieBtn(type='submit') Add cookie
+
+
+  h2 Signed cookies
+  p Current signed cookies visible on server side
+
+  p.json= signedCookies
+
+  p Button to add random cookie
+
+  
+  form(method='post', action='/signedCookie' )
+    button.cookieBtn(type='submit') Add signed cookie
+
+
+  h2 Session data
+
+  p Current session data stored on server side
+
+  p.json= session
+  
+  form(method='post', action='/session' )
+    button.cookieBtn(type='submit') Add session data
